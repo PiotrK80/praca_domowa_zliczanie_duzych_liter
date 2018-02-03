@@ -1,0 +1,43 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+char znak( char znaki )
+{
+    int b;
+    cout << "wpisz litery" << endl;
+    cin >> b;
+    int k = 0, j = 0
+    for( int i = 0; i < b; i++ )
+    {
+        cout << "wpisz znaki: " << endl;
+        char znak;
+        cin >> znak;
+       
+        if(( znak >= 'A' ) &&( znak <= 'Z' ) )
+        {
+            int k = 0;
+            k++;
+           
+            cout << "Duzych znakow jest: " << k++<< endl;
+        }
+        else
+        {
+           
+            int j = 0;
+            j++;
+            cout << "Malych znakow jest" << j++<< endl;
+           
+           
+        }
+    }
+   
+}
+
+int main()
+
+{
+    char a;
+    znak( a );
+    getch();
+}
